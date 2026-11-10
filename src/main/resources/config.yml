@@ -1,0 +1,25 @@
+death:
+  title: "☠ YOU DIED"
+  subtitle: "Kamu telah gugur..."
+  duration-ticks: 20
+  rise-blocks: 2.0
+  particle: SOUL_FIRE_FLAME
+  particle-count: 12
+  smoke-count: 6
+  sound: ENTITY_WITHER_DEATH
+  volume: 0.8
+  pitch: 1.0
+respawn:
+  title: "✦ KAMU BANGKIT KEMBALI ✦"
+  subtitle: "Kamu telah kembali!"
+  duration-ticks: 40
+  start-height: 5.0
+  circle-radius: 1.2
+  circle-points: 16
+  particle: END_ROD
+  sound: ENTITY_PLAYER_LEVELUP
+  volume: 0.8
+  pitch: 1.0
+text:
+  gradient-start: "#8A2BE2"
+  gradient-end: "#FF69B4"

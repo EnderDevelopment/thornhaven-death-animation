@@ -1,0 +1,13 @@
+name: ThornhavenDeathAnimation
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21.11"
+commands:
+  tda:
+    description: Reload Thornhaven death animation configuration.
+    usage: /tda reload
+    permission: thornhaven.animation.reload
+permissions:
+  thornhaven.animation.reload:
+    description: Allows reloading the animation configuration.
+    default: op

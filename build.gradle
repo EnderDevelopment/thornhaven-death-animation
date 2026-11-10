@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.enderdevelopment.plugin'
+version = '1.0.0'
+
+base {
+    archivesName = 'ThornhavenDeathAnimation'
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(25)
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT'
+}
+
+processResources {
+    filteringCharset = 'UTF-8'
+}
